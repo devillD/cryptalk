@@ -2,7 +2,7 @@
 
 const
 	handler = require('serve-handler'),
-	port = process.env.PORT || 8080,
+	port = process.env.PORT || 443,
 	path = require('path');
 
 let
