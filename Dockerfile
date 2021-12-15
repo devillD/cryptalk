@@ -1,4 +1,4 @@
-FROM node:16-alpine
+FROM node:fermium-alpine
 COPY . /usr/src/app
 WORKDIR /usr/src/app
 RUN npm install --no-cache
