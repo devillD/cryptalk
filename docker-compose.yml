@@ -1,5 +1,5 @@
 services:
-  chat:
+  0:
     build: .
     ports:
       - "443:443"
